@@ -46,7 +46,7 @@ namespace Foodieee
             this.label1.Font = new System.Drawing.Font("Montserrat", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(35, 101);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(243, 29);
+            this.label1.Size = new System.Drawing.Size(251, 25);
             this.label1.TabIndex = 4;
             this.label1.Text = "Metode Pembayaran";
             // 
@@ -103,6 +103,7 @@ namespace Foodieee
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MetodePembayaran";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MetodePembayaran";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
