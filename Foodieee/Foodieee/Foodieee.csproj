@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddressScheduling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddressScheduling.Designer.cs">
+      <DependentUpon>AddressScheduling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
     <Compile Include="Success.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +78,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddressScheduling.resx">
+      <DependentUpon>AddressScheduling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -130,6 +148,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\undraw_Checklist__re_2w7v 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lemonade.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nasi-goreng-pedas_43.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3678904283.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\REST_284-727x720-FIT_AND_TRIM-f1c371073b2ffe160cbf115724ff355d.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sang-Pisang-Nugget-Pisang-Kekinian.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

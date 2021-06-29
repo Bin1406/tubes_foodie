@@ -31,6 +31,7 @@ namespace Foodieee
         {
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.buttonSuccess = new System.Windows.Forms.Button();
+            this.labelSucces = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -48,7 +49,7 @@ namespace Foodieee
             // 
             this.buttonSuccess.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.buttonSuccess.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonSuccess.Font = new System.Drawing.Font("Montserrat SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSuccess.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSuccess.ForeColor = System.Drawing.Color.Transparent;
             this.buttonSuccess.Location = new System.Drawing.Point(83, 364);
             this.buttonSuccess.Name = "buttonSuccess";
@@ -57,12 +58,23 @@ namespace Foodieee
             this.buttonSuccess.Text = "Back to Menu";
             this.buttonSuccess.UseVisualStyleBackColor = false;
             // 
+            // labelSucces
+            // 
+            this.labelSucces.AutoSize = true;
+            this.labelSucces.Font = new System.Drawing.Font("Montserrat", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelSucces.Location = new System.Drawing.Point(57, 322);
+            this.labelSucces.Name = "labelSucces";
+            this.labelSucces.Size = new System.Drawing.Size(201, 23);
+            this.labelSucces.TabIndex = 2;
+            this.labelSucces.Text = "Payment Success!";
+            // 
             // Success
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(300, 500);
+            this.Controls.Add(this.labelSucces);
             this.Controls.Add(this.buttonSuccess);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -71,6 +83,7 @@ namespace Foodieee
             this.Text = "Succes";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -78,5 +91,6 @@ namespace Foodieee
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button buttonSuccess;
+        private System.Windows.Forms.Label labelSucces;
     }
 }
