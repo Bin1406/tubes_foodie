@@ -56,7 +56,7 @@ namespace Foodieee
 
         private void buttonRecom_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Maaf fitur ini masih dalam tahap pengembangan");
+ //           MessageBox.Show("Maaf fitur ini masih dalam tahap pengembangan");
         }
 
         private void buttonNear_Click(object sender, EventArgs e)
@@ -66,7 +66,7 @@ namespace Foodieee
 
         private void comboBoxFilter_SelectedIndexChanged(object sender, EventArgs e)
         {
-            MessageBox.Show("Maaf fitur ini masih dalam tahap pengembangan");
+ //           MessageBox.Show("Maaf fitur ini masih dalam tahap pengembangan");
         }
     }
 }
