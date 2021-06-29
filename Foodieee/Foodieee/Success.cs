@@ -16,5 +16,13 @@ namespace Foodieee
         {
             InitializeComponent();
         }
+
+        private void buttonSuccess_Click(object sender, EventArgs e)
+        {
+            // Mer redirect ke halaman utama karena transaksi atau flow dari user sudah selesai
+            this.Hide();
+            Home Hm = new Home();
+            Hm.Show();
+        }
     }
 }
