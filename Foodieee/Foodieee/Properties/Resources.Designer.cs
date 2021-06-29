@@ -63,6 +63,26 @@ namespace Foodieee.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _3678904283 {
+            get {
+                object obj = ResourceManager.GetObject("3678904283", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap download {
+            get {
+                object obj = ResourceManager.GetObject("download", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Ellipse_18 {
             get {
                 object obj = ResourceManager.GetObject("Ellipse 18", resourceCulture);
@@ -143,6 +163,16 @@ namespace Foodieee.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap lemonade {
+            get {
+                object obj = ResourceManager.GetObject("lemonade", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Lock {
             get {
                 object obj = ResourceManager.GetObject("Lock", resourceCulture);
@@ -153,9 +183,39 @@ namespace Foodieee.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap nasi_goreng_pedas_43 {
+            get {
+                object obj = ResourceManager.GetObject("nasi-goreng-pedas_43", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Profile {
             get {
                 object obj = ResourceManager.GetObject("Profile", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap REST_284_727x720_FIT_AND_TRIM_f1c371073b2ffe160cbf115724ff355d {
+            get {
+                object obj = ResourceManager.GetObject("REST_284-727x720-FIT_AND_TRIM-f1c371073b2ffe160cbf115724ff355d", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sang_Pisang_Nugget_Pisang_Kekinian {
+            get {
+                object obj = ResourceManager.GetObject("Sang-Pisang-Nugget-Pisang-Kekinian", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
