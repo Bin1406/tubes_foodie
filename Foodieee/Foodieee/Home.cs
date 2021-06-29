@@ -21,5 +21,12 @@ namespace Foodieee
         {
 
         }
+
+        private void pictureBoxLemon_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            DetailMakanan Dm = new DetailMakanan();
+            Dm.Show();
+        }
     }
 }

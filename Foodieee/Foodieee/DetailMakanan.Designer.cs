@@ -45,7 +45,7 @@ namespace Foodieee
             this.namaMakanan.Font = new System.Drawing.Font("Montserrat", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.namaMakanan.Location = new System.Drawing.Point(12, 233);
             this.namaMakanan.Name = "namaMakanan";
-            this.namaMakanan.Size = new System.Drawing.Size(131, 29);
+            this.namaMakanan.Size = new System.Drawing.Size(133, 25);
             this.namaMakanan.TabIndex = 2;
             this.namaMakanan.Text = "Lemonade";
             // 
@@ -75,7 +75,7 @@ namespace Foodieee
             this.label3.Font = new System.Drawing.Font("Montserrat", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(164, 279);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(95, 26);
+            this.label3.Size = new System.Drawing.Size(100, 23);
             this.label3.TabIndex = 5;
             this.label3.Text = "Rp 9000";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -113,6 +113,7 @@ namespace Foodieee
             this.Controls.Add(this.namaMakanan);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "DetailMakanan";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DetailMakanan";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
