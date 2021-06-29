@@ -33,6 +33,9 @@ namespace Foodieee
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.labelLemonade = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxLemon = new System.Windows.Forms.PictureBox();
             this.labelPromo = new System.Windows.Forms.Label();
             this.buttonRecom = new System.Windows.Forms.Button();
             this.buttonNear = new System.Windows.Forms.Button();
@@ -44,21 +47,18 @@ namespace Foodieee
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBoxLemon = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLemon)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.LightSalmon;
+            this.panel1.BackColor = System.Drawing.Color.Coral;
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.labelLemonade);
@@ -79,7 +79,7 @@ namespace Foodieee
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(226, 132);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 36);
+            this.label2.Size = new System.Drawing.Size(71, 36);
             this.label2.TabIndex = 6;
             this.label2.Text = "Markobar\r\n22k";
             // 
@@ -91,7 +91,7 @@ namespace Foodieee
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(118, 132);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(102, 36);
+            this.label1.Size = new System.Drawing.Size(91, 36);
             this.label1.TabIndex = 5;
             this.label1.Text = "Nasi Goreng\r\n25k";
             // 
@@ -103,10 +103,40 @@ namespace Foodieee
             this.labelLemonade.ForeColor = System.Drawing.Color.White;
             this.labelLemonade.Location = new System.Drawing.Point(13, 132);
             this.labelLemonade.Name = "labelLemonade";
-            this.labelLemonade.Size = new System.Drawing.Size(86, 36);
+            this.labelLemonade.Size = new System.Drawing.Size(77, 36);
             this.labelLemonade.TabIndex = 4;
             this.labelLemonade.Text = "Lemonade\r\n9k";
             this.labelLemonade.Click += new System.EventHandler(this.labelLemonade_Click);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Foodieee.Properties.Resources._3678904283;
+            this.pictureBox3.Location = new System.Drawing.Point(228, 49);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(89, 70);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 3;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Foodieee.Properties.Resources.nasi_goreng_pedas_43;
+            this.pictureBox2.Location = new System.Drawing.Point(121, 49);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(89, 70);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 2;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBoxLemon
+            // 
+            this.pictureBoxLemon.Image = global::Foodieee.Properties.Resources.lemonade;
+            this.pictureBoxLemon.Location = new System.Drawing.Point(13, 49);
+            this.pictureBoxLemon.Name = "pictureBoxLemon";
+            this.pictureBoxLemon.Size = new System.Drawing.Size(89, 70);
+            this.pictureBoxLemon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxLemon.TabIndex = 1;
+            this.pictureBoxLemon.TabStop = false;
             // 
             // labelPromo
             // 
@@ -116,13 +146,13 @@ namespace Foodieee
             this.labelPromo.ForeColor = System.Drawing.Color.White;
             this.labelPromo.Location = new System.Drawing.Point(3, 13);
             this.labelPromo.Name = "labelPromo";
-            this.labelPromo.Size = new System.Drawing.Size(78, 26);
+            this.labelPromo.Size = new System.Drawing.Size(79, 23);
             this.labelPromo.TabIndex = 0;
             this.labelPromo.Text = "Promo";
             // 
             // buttonRecom
             // 
-            this.buttonRecom.BackColor = System.Drawing.Color.LightSalmon;
+            this.buttonRecom.BackColor = System.Drawing.Color.Coral;
             this.buttonRecom.FlatAppearance.BorderSize = 0;
             this.buttonRecom.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonRecom.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -149,7 +179,7 @@ namespace Foodieee
             // 
             // comboBoxFilter
             // 
-            this.comboBoxFilter.BackColor = System.Drawing.Color.LightSalmon;
+            this.comboBoxFilter.BackColor = System.Drawing.Color.Coral;
             this.comboBoxFilter.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBoxFilter.ForeColor = System.Drawing.Color.White;
             this.comboBoxFilter.FormattingEnabled = true;
@@ -167,7 +197,7 @@ namespace Foodieee
             this.labelMorning.ForeColor = System.Drawing.Color.Black;
             this.labelMorning.Location = new System.Drawing.Point(2, 263);
             this.labelMorning.Name = "labelMorning";
-            this.labelMorning.Size = new System.Drawing.Size(95, 26);
+            this.labelMorning.Size = new System.Drawing.Size(97, 23);
             this.labelMorning.TabIndex = 7;
             this.labelMorning.Text = "Morning";
             // 
@@ -237,36 +267,6 @@ namespace Foodieee
             this.pictureBox4.TabIndex = 7;
             this.pictureBox4.TabStop = false;
             // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::Foodieee.Properties.Resources._3678904283;
-            this.pictureBox3.Location = new System.Drawing.Point(228, 49);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(89, 70);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 3;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Foodieee.Properties.Resources.nasi_goreng_pedas_43;
-            this.pictureBox2.Location = new System.Drawing.Point(121, 49);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(89, 70);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBoxLemon
-            // 
-            this.pictureBoxLemon.Image = global::Foodieee.Properties.Resources.lemonade;
-            this.pictureBoxLemon.Location = new System.Drawing.Point(13, 49);
-            this.pictureBoxLemon.Name = "pictureBoxLemon";
-            this.pictureBoxLemon.Size = new System.Drawing.Size(89, 70);
-            this.pictureBoxLemon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxLemon.TabIndex = 1;
-            this.pictureBoxLemon.TabStop = false;
-            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -290,12 +290,12 @@ namespace Foodieee
             this.Text = "Home";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLemon)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

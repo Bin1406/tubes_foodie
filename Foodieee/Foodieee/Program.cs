@@ -16,7 +16,7 @@ namespace Foodieee
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Pembayaran());
+            Application.Run(new Login());
         }
     }
 }
