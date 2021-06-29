@@ -42,5 +42,10 @@ namespace Foodieee
             MetodePembayaran Mp = new MetodePembayaran();
             Mp.Show();
         }
+
+        private void textBoxNotes_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
