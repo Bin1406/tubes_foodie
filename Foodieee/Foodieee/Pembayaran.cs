@@ -21,5 +21,12 @@ namespace Foodieee
         {
 
         }
+
+        private void buttonOrder_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Success Sc = new Success();
+            Sc.Show();
+        }
     }
 }
