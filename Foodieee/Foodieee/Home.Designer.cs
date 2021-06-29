@@ -75,11 +75,11 @@ namespace Foodieee
             // 
             this.label2.AutoSize = true;
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label2.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(226, 132);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(71, 36);
+            this.label2.Size = new System.Drawing.Size(80, 36);
             this.label2.TabIndex = 6;
             this.label2.Text = "Markobar\r\n22k";
             // 
@@ -87,11 +87,11 @@ namespace Foodieee
             // 
             this.label1.AutoSize = true;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label1.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(118, 132);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(91, 36);
+            this.label1.Size = new System.Drawing.Size(103, 36);
             this.label1.TabIndex = 5;
             this.label1.Text = "Nasi Goreng\r\n25k";
             // 
@@ -99,11 +99,11 @@ namespace Foodieee
             // 
             this.labelLemonade.AutoSize = true;
             this.labelLemonade.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.labelLemonade.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelLemonade.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelLemonade.ForeColor = System.Drawing.Color.White;
             this.labelLemonade.Location = new System.Drawing.Point(13, 132);
             this.labelLemonade.Name = "labelLemonade";
-            this.labelLemonade.Size = new System.Drawing.Size(77, 36);
+            this.labelLemonade.Size = new System.Drawing.Size(86, 36);
             this.labelLemonade.TabIndex = 4;
             this.labelLemonade.Text = "Lemonade\r\n9k";
             this.labelLemonade.Click += new System.EventHandler(this.labelLemonade_Click);
@@ -117,6 +117,7 @@ namespace Foodieee
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 3;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // pictureBox2
             // 
@@ -127,6 +128,7 @@ namespace Foodieee
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBoxLemon
             // 
@@ -147,7 +149,7 @@ namespace Foodieee
             this.labelPromo.ForeColor = System.Drawing.Color.White;
             this.labelPromo.Location = new System.Drawing.Point(3, 13);
             this.labelPromo.Name = "labelPromo";
-            this.labelPromo.Size = new System.Drawing.Size(79, 23);
+            this.labelPromo.Size = new System.Drawing.Size(78, 26);
             this.labelPromo.TabIndex = 0;
             this.labelPromo.Text = "Promo";
             // 
@@ -156,39 +158,49 @@ namespace Foodieee
             this.buttonRecom.BackColor = System.Drawing.Color.Coral;
             this.buttonRecom.FlatAppearance.BorderSize = 0;
             this.buttonRecom.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonRecom.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonRecom.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonRecom.ForeColor = System.Drawing.Color.White;
-            this.buttonRecom.Location = new System.Drawing.Point(-1, 211);
+            this.buttonRecom.Location = new System.Drawing.Point(6, 211);
             this.buttonRecom.Name = "buttonRecom";
-            this.buttonRecom.Size = new System.Drawing.Size(109, 29);
+            this.buttonRecom.Size = new System.Drawing.Size(102, 26);
             this.buttonRecom.TabIndex = 1;
             this.buttonRecom.Text = "Recomended";
             this.buttonRecom.UseVisualStyleBackColor = false;
+            this.buttonRecom.Click += new System.EventHandler(this.buttonRecom_Click);
             // 
             // buttonNear
             // 
             this.buttonNear.BackColor = System.Drawing.Color.White;
+            this.buttonNear.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.buttonNear.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.buttonNear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonNear.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonNear.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonNear.ForeColor = System.Drawing.Color.Black;
             this.buttonNear.Location = new System.Drawing.Point(114, 211);
             this.buttonNear.Name = "buttonNear";
-            this.buttonNear.Size = new System.Drawing.Size(82, 29);
+            this.buttonNear.Size = new System.Drawing.Size(82, 26);
             this.buttonNear.TabIndex = 2;
             this.buttonNear.Text = "Near You";
             this.buttonNear.UseVisualStyleBackColor = false;
+            this.buttonNear.Click += new System.EventHandler(this.buttonNear_Click);
             // 
             // comboBoxFilter
             // 
             this.comboBoxFilter.BackColor = System.Drawing.Color.Coral;
-            this.comboBoxFilter.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxFilter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBoxFilter.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBoxFilter.ForeColor = System.Drawing.Color.White;
             this.comboBoxFilter.FormattingEnabled = true;
+            this.comboBoxFilter.Items.AddRange(new object[] {
+            "Termurah",
+            "Termahal",
+            "Terlaris"});
             this.comboBoxFilter.Location = new System.Drawing.Point(202, 211);
             this.comboBoxFilter.Name = "comboBoxFilter";
-            this.comboBoxFilter.Size = new System.Drawing.Size(98, 26);
+            this.comboBoxFilter.Size = new System.Drawing.Size(94, 26);
             this.comboBoxFilter.TabIndex = 3;
             this.comboBoxFilter.Text = "Filter";
+            this.comboBoxFilter.SelectedIndexChanged += new System.EventHandler(this.comboBoxFilter_SelectedIndexChanged);
             // 
             // labelMorning
             // 
@@ -198,7 +210,7 @@ namespace Foodieee
             this.labelMorning.ForeColor = System.Drawing.Color.Black;
             this.labelMorning.Location = new System.Drawing.Point(2, 263);
             this.labelMorning.Name = "labelMorning";
-            this.labelMorning.Size = new System.Drawing.Size(97, 23);
+            this.labelMorning.Size = new System.Drawing.Size(95, 26);
             this.labelMorning.TabIndex = 7;
             this.labelMorning.Text = "Morning";
             // 
@@ -247,6 +259,7 @@ namespace Foodieee
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 9;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // pictureBox5
             // 
@@ -257,6 +270,7 @@ namespace Foodieee
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 8;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // pictureBox4
             // 
@@ -267,6 +281,7 @@ namespace Foodieee
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 7;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // Home
             // 

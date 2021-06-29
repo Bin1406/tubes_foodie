@@ -21,5 +21,31 @@ namespace Foodieee
         {
 
         }
+
+        private void buttonOrder_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Success Sc = new Success();
+            Sc.Show();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            DetailMakanan Dm = new DetailMakanan();
+            Dm.Show();
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            this.Hide();
+            MetodePembayaran Mp = new MetodePembayaran();
+            Mp.Show();
+        }
+
+        private void textBoxNotes_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

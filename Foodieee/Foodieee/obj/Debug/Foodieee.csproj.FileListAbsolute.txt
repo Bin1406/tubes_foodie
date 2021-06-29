@@ -46,3 +46,19 @@ D:\Telkom University\SE-43-03\Kelas\Semester 4\Kelas\Konstruksi Perangkat Lunak\
 D:\Telkom University\SE-43-03\Kelas\Semester 4\Kelas\Konstruksi Perangkat Lunak\TUBES TIDAK CONFLICT BISMILLAH\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.csproj.CoreCompileInputs.cache
 D:\Telkom University\SE-43-03\Kelas\Semester 4\Kelas\Konstruksi Perangkat Lunak\TUBES TIDAK CONFLICT BISMILLAH\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.exe
 D:\Telkom University\SE-43-03\Kelas\Semester 4\Kelas\Konstruksi Perangkat Lunak\TUBES TIDAK CONFLICT BISMILLAH\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.pdb
+D:\Kuliah\Foodie_KPL\tubes_foodie\Foodieee\Foodieee\bin\Debug\Foodieee.exe.config
+D:\Kuliah\Foodie_KPL\tubes_foodie\Foodieee\Foodieee\bin\Debug\Foodieee.exe
+D:\Kuliah\Foodie_KPL\tubes_foodie\Foodieee\Foodieee\bin\Debug\Foodieee.pdb
+D:\Kuliah\Foodie_KPL\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.csprojAssemblyReference.cache
+D:\Kuliah\Foodie_KPL\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.AddressScheduling.resources
+D:\Kuliah\Foodie_KPL\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.DetailMakanan.resources
+D:\Kuliah\Foodie_KPL\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.Home.resources
+D:\Kuliah\Foodie_KPL\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.Login.resources
+D:\Kuliah\Foodie_KPL\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.MetodePembayaran.resources
+D:\Kuliah\Foodie_KPL\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.Pembayaran.resources
+D:\Kuliah\Foodie_KPL\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.Properties.Resources.resources
+D:\Kuliah\Foodie_KPL\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.Success.resources
+D:\Kuliah\Foodie_KPL\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.csproj.GenerateResource.cache
+D:\Kuliah\Foodie_KPL\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.csproj.CoreCompileInputs.cache
+D:\Kuliah\Foodie_KPL\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.exe
+D:\Kuliah\Foodie_KPL\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.pdb
