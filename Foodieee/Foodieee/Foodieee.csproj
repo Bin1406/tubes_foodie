@@ -46,6 +46,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddressScheduling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddressScheduling.Designer.cs">
+      <DependentUpon>AddressScheduling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DetailMakanan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetailMakanan.Designer.cs">
+      <DependentUpon>DetailMakanan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MetodePembayaran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MetodePembayaran.Designer.cs">
+      <DependentUpon>MetodePembayaran.cs</DependentUpon>
+    </Compile>
     <Compile Include="Success.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,8 +90,20 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddressScheduling.resx">
+      <DependentUpon>AddressScheduling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetailMakanan.resx">
+      <DependentUpon>DetailMakanan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MetodePembayaran.resx">
+      <DependentUpon>MetodePembayaran.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pembayaran.resx">
       <DependentUpon>Pembayaran.cs</DependentUpon>
@@ -130,6 +166,48 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\undraw_Checklist__re_2w7v 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lemonade.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nasi-goreng-pedas_43.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3678904283.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\REST_284-727x720-FIT_AND_TRIM-f1c371073b2ffe160cbf115724ff355d.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sang-Pisang-Nugget-Pisang-Kekinian.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button shop now.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lemonade1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bni.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gopay.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mandiri.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ovo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lemonade2.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
