@@ -35,15 +35,17 @@ namespace Foodieee
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.buttonShopNow = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonShopNow)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // namaMakanan
             // 
             this.namaMakanan.AutoSize = true;
             this.namaMakanan.Font = new System.Drawing.Font("Montserrat", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.namaMakanan.Location = new System.Drawing.Point(12, 233);
+            this.namaMakanan.Location = new System.Drawing.Point(10, 283);
             this.namaMakanan.Name = "namaMakanan";
             this.namaMakanan.Size = new System.Drawing.Size(131, 29);
             this.namaMakanan.TabIndex = 2;
@@ -52,7 +54,7 @@ namespace Foodieee
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(14, 279);
+            this.label1.Location = new System.Drawing.Point(12, 334);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(43, 13);
             this.label1.TabIndex = 3;
@@ -62,7 +64,7 @@ namespace Foodieee
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(14, 308);
+            this.label2.Location = new System.Drawing.Point(12, 357);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(59, 13);
             this.label2.TabIndex = 4;
@@ -73,7 +75,7 @@ namespace Foodieee
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Montserrat", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(164, 279);
+            this.label3.Location = new System.Drawing.Point(177, 347);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(95, 26);
             this.label3.TabIndex = 5;
@@ -83,9 +85,10 @@ namespace Foodieee
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Foodieee.Properties.Resources.lemonade1;
-            this.pictureBox2.Location = new System.Drawing.Point(-3, -1);
+            this.pictureBox2.Location = new System.Drawing.Point(-2, 58);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(293, 215);
+            this.pictureBox2.Size = new System.Drawing.Size(292, 213);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 7;
             this.pictureBox2.TabStop = false;
             // 
@@ -100,12 +103,25 @@ namespace Foodieee
             this.buttonShopNow.TabStop = false;
             this.buttonShopNow.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::Foodieee.Properties.Resources.back;
+            this.pictureBox1.Location = new System.Drawing.Point(-2, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(43, 40);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_1);
+            // 
             // DetailMakanan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(284, 461);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.buttonShopNow);
             this.Controls.Add(this.label3);
@@ -118,6 +134,7 @@ namespace Foodieee
             this.Text = "DetailMakanan";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonShopNow)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -130,5 +147,6 @@ namespace Foodieee
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox buttonShopNow;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
