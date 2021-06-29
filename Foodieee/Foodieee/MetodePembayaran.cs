@@ -16,5 +16,12 @@ namespace Foodieee
         {
             InitializeComponent();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Pembayaran pm = new Pembayaran();
+            pm.Show();
+        }
     }
 }
