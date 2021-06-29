@@ -47,11 +47,11 @@ namespace Foodieee
             // 
             // buttonSuccess
             // 
-            this.buttonSuccess.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.buttonSuccess.BackColor = System.Drawing.Color.Coral;
             this.buttonSuccess.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonSuccess.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSuccess.ForeColor = System.Drawing.Color.Transparent;
-            this.buttonSuccess.Location = new System.Drawing.Point(83, 364);
+            this.buttonSuccess.Location = new System.Drawing.Point(75, 381);
             this.buttonSuccess.Name = "buttonSuccess";
             this.buttonSuccess.Size = new System.Drawing.Size(139, 40);
             this.buttonSuccess.TabIndex = 1;
@@ -64,7 +64,7 @@ namespace Foodieee
             this.labelSucces.Font = new System.Drawing.Font("Montserrat", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelSucces.Location = new System.Drawing.Point(57, 322);
             this.labelSucces.Name = "labelSucces";
-            this.labelSucces.Size = new System.Drawing.Size(201, 23);
+            this.labelSucces.Size = new System.Drawing.Size(191, 26);
             this.labelSucces.TabIndex = 2;
             this.labelSucces.Text = "Payment Success!";
             // 
