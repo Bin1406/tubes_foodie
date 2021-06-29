@@ -16,5 +16,12 @@ namespace Foodieee
         {
             InitializeComponent();
         }
+
+        private void buttonSuccess_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Home Hm = new Home();
+            Hm.Show();
+        }
     }
 }
