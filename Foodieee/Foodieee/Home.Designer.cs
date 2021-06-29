@@ -33,14 +33,14 @@ namespace Foodieee
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.labelLemonade = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxLemon = new System.Windows.Forms.PictureBox();
             this.labelPromo = new System.Windows.Forms.Label();
             this.buttonRecom = new System.Windows.Forms.Button();
             this.buttonNear = new System.Windows.Forms.Button();
             this.comboBoxFilter = new System.Windows.Forms.ComboBox();
             this.SidePanel = new System.Windows.Forms.Panel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBoxLemon = new System.Windows.Forms.PictureBox();
             this.secondControl1 = new Foodieee.SecondControl();
             this.firstControl1 = new Foodieee.FirstControl();
             this.panel1.SuspendLayout();
@@ -101,75 +101,6 @@ namespace Foodieee
             this.labelLemonade.Text = "Lemonade\r\n9k";
             this.labelLemonade.Click += new System.EventHandler(this.labelLemonade_Click);
             // 
-            // labelPromo
-            // 
-            this.labelPromo.AutoSize = true;
-            this.labelPromo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.labelPromo.Font = new System.Drawing.Font("Montserrat", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPromo.ForeColor = System.Drawing.Color.White;
-            this.labelPromo.Location = new System.Drawing.Point(3, 13);
-            this.labelPromo.Name = "labelPromo";
-            this.labelPromo.Size = new System.Drawing.Size(79, 23);
-            this.labelPromo.TabIndex = 0;
-            this.labelPromo.Text = "Promo";
-            // 
-            // buttonRecom
-            // 
-            this.buttonRecom.BackColor = System.Drawing.Color.White;
-            this.buttonRecom.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonRecom.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonRecom.ForeColor = System.Drawing.Color.Black;
-            this.buttonRecom.Location = new System.Drawing.Point(6, 211);
-            this.buttonRecom.Name = "buttonRecom";
-            this.buttonRecom.Size = new System.Drawing.Size(102, 26);
-            this.buttonRecom.TabIndex = 1;
-            this.buttonRecom.Text = "Recomended";
-            this.buttonRecom.UseVisualStyleBackColor = false;
-            this.buttonRecom.Click += new System.EventHandler(this.buttonRecom_Click);
-            // 
-            // buttonNear
-            // 
-            this.buttonNear.BackColor = System.Drawing.Color.White;
-            this.buttonNear.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.buttonNear.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.buttonNear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonNear.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonNear.ForeColor = System.Drawing.Color.Black;
-            this.buttonNear.Location = new System.Drawing.Point(114, 211);
-            this.buttonNear.Name = "buttonNear";
-            this.buttonNear.Size = new System.Drawing.Size(82, 26);
-            this.buttonNear.TabIndex = 2;
-            this.buttonNear.Text = "Near You";
-            this.buttonNear.UseVisualStyleBackColor = false;
-            this.buttonNear.Click += new System.EventHandler(this.buttonNear_Click);
-            // 
-            // comboBoxFilter
-            // 
-            this.comboBoxFilter.BackColor = System.Drawing.Color.Coral;
-            this.comboBoxFilter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBoxFilter.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxFilter.ForeColor = System.Drawing.Color.White;
-            this.comboBoxFilter.FormattingEnabled = true;
-            this.comboBoxFilter.Items.AddRange(new object[] {
-            "Termurah",
-            "Termahal",
-            "Terlaris"});
-            this.comboBoxFilter.Location = new System.Drawing.Point(202, 211);
-            this.comboBoxFilter.Name = "comboBoxFilter";
-            this.comboBoxFilter.Size = new System.Drawing.Size(94, 26);
-            this.comboBoxFilter.TabIndex = 3;
-            this.comboBoxFilter.Text = "Filter";
-            this.comboBoxFilter.SelectedIndexChanged += new System.EventHandler(this.comboBoxFilter_SelectedIndexChanged);
-            // 
-            // SidePanel
-            // 
-            this.SidePanel.BackColor = System.Drawing.Color.Coral;
-            this.SidePanel.Location = new System.Drawing.Point(6, 210);
-            this.SidePanel.Name = "SidePanel";
-            this.SidePanel.Size = new System.Drawing.Size(5, 26);
-            this.SidePanel.TabIndex = 13;
-            this.SidePanel.Paint += new System.Windows.Forms.PaintEventHandler(this.SidePanel_Paint);
-            // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Foodieee.Properties.Resources._3678904283;
@@ -203,16 +134,87 @@ namespace Foodieee
             this.pictureBoxLemon.TabStop = false;
             this.pictureBoxLemon.Click += new System.EventHandler(this.pictureBoxLemon_Click);
             // 
+            // labelPromo
+            // 
+            this.labelPromo.AutoSize = true;
+            this.labelPromo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.labelPromo.Font = new System.Drawing.Font("Montserrat", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelPromo.ForeColor = System.Drawing.Color.White;
+            this.labelPromo.Location = new System.Drawing.Point(3, 13);
+            this.labelPromo.Name = "labelPromo";
+            this.labelPromo.Size = new System.Drawing.Size(78, 26);
+            this.labelPromo.TabIndex = 0;
+            this.labelPromo.Text = "Promo";
+            // 
+            // buttonRecom
+            // 
+            this.buttonRecom.BackColor = System.Drawing.Color.White;
+            this.buttonRecom.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.buttonRecom.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonRecom.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonRecom.ForeColor = System.Drawing.Color.Black;
+            this.buttonRecom.Location = new System.Drawing.Point(6, 210);
+            this.buttonRecom.Name = "buttonRecom";
+            this.buttonRecom.Size = new System.Drawing.Size(102, 26);
+            this.buttonRecom.TabIndex = 1;
+            this.buttonRecom.Text = "Recomended";
+            this.buttonRecom.UseVisualStyleBackColor = false;
+            this.buttonRecom.Click += new System.EventHandler(this.buttonRecom_Click);
+            // 
+            // buttonNear
+            // 
+            this.buttonNear.BackColor = System.Drawing.Color.White;
+            this.buttonNear.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.buttonNear.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.buttonNear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonNear.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonNear.ForeColor = System.Drawing.Color.Black;
+            this.buttonNear.Location = new System.Drawing.Point(114, 210);
+            this.buttonNear.Name = "buttonNear";
+            this.buttonNear.Size = new System.Drawing.Size(82, 26);
+            this.buttonNear.TabIndex = 2;
+            this.buttonNear.Text = "Near You";
+            this.buttonNear.UseVisualStyleBackColor = false;
+            this.buttonNear.Click += new System.EventHandler(this.buttonNear_Click);
+            // 
+            // comboBoxFilter
+            // 
+            this.comboBoxFilter.BackColor = System.Drawing.Color.Coral;
+            this.comboBoxFilter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBoxFilter.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxFilter.ForeColor = System.Drawing.Color.White;
+            this.comboBoxFilter.FormattingEnabled = true;
+            this.comboBoxFilter.Items.AddRange(new object[] {
+            "Termurah",
+            "Termahal",
+            "Terlaris"});
+            this.comboBoxFilter.Location = new System.Drawing.Point(202, 210);
+            this.comboBoxFilter.Name = "comboBoxFilter";
+            this.comboBoxFilter.Size = new System.Drawing.Size(94, 26);
+            this.comboBoxFilter.TabIndex = 3;
+            this.comboBoxFilter.Text = "Filter";
+            this.comboBoxFilter.SelectedIndexChanged += new System.EventHandler(this.comboBoxFilter_SelectedIndexChanged);
+            // 
+            // SidePanel
+            // 
+            this.SidePanel.BackColor = System.Drawing.Color.Coral;
+            this.SidePanel.Location = new System.Drawing.Point(6, 210);
+            this.SidePanel.Name = "SidePanel";
+            this.SidePanel.Size = new System.Drawing.Size(5, 26);
+            this.SidePanel.TabIndex = 13;
+            this.SidePanel.Paint += new System.Windows.Forms.PaintEventHandler(this.SidePanel_Paint);
+            // 
             // secondControl1
             // 
             this.secondControl1.Location = new System.Drawing.Point(6, 243);
             this.secondControl1.Name = "secondControl1";
             this.secondControl1.Size = new System.Drawing.Size(325, 163);
             this.secondControl1.TabIndex = 15;
+            this.secondControl1.Load += new System.EventHandler(this.secondControl1_Load);
             // 
             // firstControl1
             // 
-            this.firstControl1.Location = new System.Drawing.Point(-1, 243);
+            this.firstControl1.Location = new System.Drawing.Point(6, 243);
             this.firstControl1.Name = "firstControl1";
             this.firstControl1.Size = new System.Drawing.Size(325, 163);
             this.firstControl1.TabIndex = 14;
@@ -223,12 +225,12 @@ namespace Foodieee
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(300, 500);
+            this.Controls.Add(this.buttonRecom);
             this.Controls.Add(this.secondControl1);
             this.Controls.Add(this.firstControl1);
             this.Controls.Add(this.SidePanel);
             this.Controls.Add(this.comboBoxFilter);
             this.Controls.Add(this.buttonNear);
-            this.Controls.Add(this.buttonRecom);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Home";

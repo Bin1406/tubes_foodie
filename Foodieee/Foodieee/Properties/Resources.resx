@@ -118,85 +118,91 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="3678904283" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3678904283.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="undraw_Checklist__re_2w7v 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\undraw_Checklist__re_2w7v 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lemonade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lemonade.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="gopay" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gopay.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="nasi-goreng-pedas_43" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\nasi-goreng-pedas_43.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\download.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mandiri" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mandiri.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Home Page(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Home Page(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Sang-Pisang-Nugget-Pisang-Kekinian" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sang-Pisang-Nugget-Pisang-Kekinian.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lemonade1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lemonade1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bni" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bni.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="back" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\back.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Group 15" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="fromandroid-ecb27047370695a75176ba941b6a0d21" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fromandroid-ecb27047370695a75176ba941b6a0d21.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="button shop now" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\button shop now.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Lock" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Lock.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lemonade2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lemonade2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Group 12" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lemonade" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lemonade.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Group 13" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group 13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ellipse 18" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ellipse 18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="3678904283" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3678904283.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Image Block" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Image Block.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Profile" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Profile.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lemonade1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lemonade1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Home Page" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Home Page.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Show" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Show.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Group 50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Group 50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="REST_284-727x720-FIT_AND_TRIM-f1c371073b2ffe160cbf115724ff355d" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\REST_284-727x720-FIT_AND_TRIM-f1c371073b2ffe160cbf115724ff355d.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Profile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Profile.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nasi-goreng-pedas_431" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nasi-goreng-pedas_431.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ellipse 18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ellipse 18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group 13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="undraw_Checklist__re_2w7v 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\undraw_Checklist__re_2w7v 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ovo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ovo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="nasi-goreng-pedas_431" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\nasi-goreng-pedas_431.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Lock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lock.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group 15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mandiri" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mandiri.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fromandroid-ecb27047370695a75176ba941b6a0d21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fromandroid-ecb27047370695a75176ba941b6a0d21.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Home Page(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Home Page(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="REST_284-727x720-FIT_AND_TRIM-f1c371073b2ffe160cbf115724ff355d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\REST_284-727x720-FIT_AND_TRIM-f1c371073b2ffe160cbf115724ff355d.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lemonade2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lemonade2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Home Page" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Home Page.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sang-Pisang-Nugget-Pisang-Kekinian" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sang-Pisang-Nugget-Pisang-Kekinian.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bni.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group 12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button shop now" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button shop now.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nasi-goreng-pedas_43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nasi-goreng-pedas_43.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hide.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

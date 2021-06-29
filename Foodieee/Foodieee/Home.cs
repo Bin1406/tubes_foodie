@@ -90,5 +90,10 @@ namespace Foodieee
         {
 
         }
+
+        private void secondControl1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
