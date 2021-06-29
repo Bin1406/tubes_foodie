@@ -28,5 +28,45 @@ namespace Foodieee
             DetailMakanan Dm = new DetailMakanan();
             Dm.Show();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Maaf Nasigoreng habis");
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Maaf Martabak habis");
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Maaf Jus Anggur habis");
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Maaf Ice Cream habis");
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Maaf Sangpisang habis");
+        }
+
+        private void buttonRecom_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Maaf fitur ini masih dalam tahap pengembangan");
+        }
+
+        private void buttonNear_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Maaf fitur ini masih dalam tahap pengembangan");
+        }
+
+        private void comboBoxFilter_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            MessageBox.Show("Maaf fitur ini masih dalam tahap pengembangan");
+        }
     }
 }

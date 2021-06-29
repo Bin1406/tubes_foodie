@@ -20,8 +20,15 @@ namespace Foodieee
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Pembayaran pm = new Pembayaran();
-            pm.Show();
+            Pembayaran Pm = new Pembayaran();
+            Pm.Show();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            DetailMakanan Dm = new DetailMakanan();
+            Dm.Show();
         }
     }
 }
