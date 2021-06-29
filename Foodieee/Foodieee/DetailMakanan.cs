@@ -39,6 +39,8 @@ namespace Foodieee
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
+            // Untuk me redirect ke page selanjutnya
+            
             this.Hide();
             AddressScheduling As = new AddressScheduling();
             As.Show();
@@ -46,9 +48,15 @@ namespace Foodieee
 
         private void pictureBox1_Click_1(object sender, EventArgs e)
         {
+            // Untuk me redirect ke page sebelumnya
             this.Hide();
             Home Gg = new Home();
             Gg.Show();
+        }
+
+        private void pictureBox2_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
