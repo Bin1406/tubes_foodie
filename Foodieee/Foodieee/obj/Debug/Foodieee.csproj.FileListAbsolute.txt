@@ -1,0 +1,16 @@
+C:\Users\ASUS TUF GAMING\Documents\GitHub\tubes_foodie\Foodieee\Foodieee\bin\Debug\Foodieee.exe.config
+C:\Users\ASUS TUF GAMING\Documents\GitHub\tubes_foodie\Foodieee\Foodieee\bin\Debug\Foodieee.exe
+C:\Users\ASUS TUF GAMING\Documents\GitHub\tubes_foodie\Foodieee\Foodieee\bin\Debug\Foodieee.pdb
+C:\Users\ASUS TUF GAMING\Documents\GitHub\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.csprojAssemblyReference.cache
+C:\Users\ASUS TUF GAMING\Documents\GitHub\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.AddressScheduling.resources
+C:\Users\ASUS TUF GAMING\Documents\GitHub\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.DetailMakanan.resources
+C:\Users\ASUS TUF GAMING\Documents\GitHub\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.Home.resources
+C:\Users\ASUS TUF GAMING\Documents\GitHub\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.Login.resources
+C:\Users\ASUS TUF GAMING\Documents\GitHub\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.MetodePembayaran.resources
+C:\Users\ASUS TUF GAMING\Documents\GitHub\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.Pembayaran.resources
+C:\Users\ASUS TUF GAMING\Documents\GitHub\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.Properties.Resources.resources
+C:\Users\ASUS TUF GAMING\Documents\GitHub\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.Success.resources
+C:\Users\ASUS TUF GAMING\Documents\GitHub\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.csproj.GenerateResource.cache
+C:\Users\ASUS TUF GAMING\Documents\GitHub\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.csproj.CoreCompileInputs.cache
+C:\Users\ASUS TUF GAMING\Documents\GitHub\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.exe
+C:\Users\ASUS TUF GAMING\Documents\GitHub\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.pdb
