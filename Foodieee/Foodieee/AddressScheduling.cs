@@ -12,9 +12,19 @@ namespace Foodieee
 {
     public partial class AddressScheduling : Form
     {
+        DataTable table;
         public AddressScheduling()
         {
             InitializeComponent();
+        }
+
+        private void AddressScheduling_Load(object sender, EventArgs e)
+        {
+            table = new DataTable();
+            table.Columns.Add("Date", typeof(String));
+            table.Columns.Add("Address", typeof(String));
+
+            dataGridView1.DataSource = table;
         }
 
         private void buttonPayment_Click(object sender, EventArgs e)
@@ -24,10 +34,7 @@ namespace Foodieee
             Mp.Show();
         }
 
-        private void date_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
+       
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
@@ -36,8 +43,22 @@ namespace Foodieee
             Dm.Show();
         }
 
-        private void AddressScheduling_Load(object sender, EventArgs e)
+        private void AddressScheduling_(object sender, EventArgs e)
         {
+           
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonAdd_Click(object sender, EventArgs e)
+        {
+            table.Rows.Add(textDate.Text, textAddress.Text);
+
+            textDate.Clear();
+            textAddress.Clear();
 
         }
     }
