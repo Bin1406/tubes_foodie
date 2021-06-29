@@ -45,7 +45,7 @@ namespace Foodieee
             // 
             this.namaMakanan.AutoSize = true;
             this.namaMakanan.Font = new System.Drawing.Font("Montserrat", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.namaMakanan.Location = new System.Drawing.Point(10, 283);
+            this.namaMakanan.Location = new System.Drawing.Point(10, 292);
             this.namaMakanan.Name = "namaMakanan";
             this.namaMakanan.Size = new System.Drawing.Size(131, 29);
             this.namaMakanan.TabIndex = 2;
@@ -54,7 +54,7 @@ namespace Foodieee
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 334);
+            this.label1.Location = new System.Drawing.Point(12, 343);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(43, 13);
             this.label1.TabIndex = 3;
@@ -64,7 +64,7 @@ namespace Foodieee
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 357);
+            this.label2.Location = new System.Drawing.Point(12, 366);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(59, 13);
             this.label2.TabIndex = 4;
@@ -75,7 +75,7 @@ namespace Foodieee
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Montserrat", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(177, 347);
+            this.label3.Location = new System.Drawing.Point(177, 356);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(95, 26);
             this.label3.TabIndex = 5;
@@ -87,15 +87,16 @@ namespace Foodieee
             this.pictureBox2.Image = global::Foodieee.Properties.Resources.lemonade1;
             this.pictureBox2.Location = new System.Drawing.Point(-2, 58);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(292, 213);
+            this.pictureBox2.Size = new System.Drawing.Size(302, 213);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 7;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click_1);
             // 
             // buttonShopNow
             // 
             this.buttonShopNow.Image = global::Foodieee.Properties.Resources.button_shop_now;
-            this.buttonShopNow.Location = new System.Drawing.Point(42, 403);
+            this.buttonShopNow.Location = new System.Drawing.Point(52, 443);
             this.buttonShopNow.Name = "buttonShopNow";
             this.buttonShopNow.Size = new System.Drawing.Size(248, 59);
             this.buttonShopNow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -107,7 +108,7 @@ namespace Foodieee
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::Foodieee.Properties.Resources.back;
-            this.pictureBox1.Location = new System.Drawing.Point(-2, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(-2, 9);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(43, 40);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -120,7 +121,7 @@ namespace Foodieee
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(284, 461);
+            this.ClientSize = new System.Drawing.Size(300, 500);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.buttonShopNow);

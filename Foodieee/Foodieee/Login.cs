@@ -19,17 +19,21 @@ namespace Foodieee
 
         private void buttonLogin_Click(object sender, EventArgs e)
         {
+            // Menambahkan variabel untuk meng capture inputan dari user
             string username, password;
             username = textUsername.Text;
             password = textPassword.Text;
 
+            // Menerapkan kondisi apabila username dan password user terdaftar
             if (username == "Foodie" && password == "Foodie")
             {
                 MessageBox.Show("Berhasil Login");
                 this.Hide();
                 Home Gg = new Home();
                 Gg.Show();
-            } else
+            }
+            // Menerapkan kondisi apabila username dan password user TIDAK terdaftar
+            else
             {
                 MessageBox.Show("Username atau Password salah");
                 this.Hide();
