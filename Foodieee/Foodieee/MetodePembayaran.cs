@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Foodieee
 {
-    public partial class Home : Form
+    public partial class MetodePembayaran : Form
     {
-        public Home()
+        public MetodePembayaran()
         {
             InitializeComponent();
-        }
-
-        private void labelLemonade_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

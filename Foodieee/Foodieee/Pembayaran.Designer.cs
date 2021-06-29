@@ -95,7 +95,7 @@ namespace Foodieee
             // 
             this.textBoxNotes.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxNotes.Location = new System.Drawing.Point(170, 145);
-            this.textBoxNotes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxNotes.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxNotes.Multiline = true;
             this.textBoxNotes.Name = "textBoxNotes";
             this.textBoxNotes.Size = new System.Drawing.Size(107, 69);
@@ -107,7 +107,7 @@ namespace Foodieee
             this.radioButton1.AutoSize = true;
             this.radioButton1.Font = new System.Drawing.Font("Montserrat SemiBold", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton1.Location = new System.Drawing.Point(38, 237);
-            this.radioButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(2);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(65, 20);
             this.radioButton1.TabIndex = 6;
@@ -120,7 +120,7 @@ namespace Foodieee
             this.radioButton2.AutoSize = true;
             this.radioButton2.Font = new System.Drawing.Font("Montserrat SemiBold", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton2.Location = new System.Drawing.Point(181, 237);
-            this.radioButton2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(2);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(96, 20);
             this.radioButton2.TabIndex = 7;
@@ -202,7 +202,7 @@ namespace Foodieee
             this.buttonOrder.Font = new System.Drawing.Font("Montserrat SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonOrder.ForeColor = System.Drawing.Color.White;
             this.buttonOrder.Location = new System.Drawing.Point(93, 382);
-            this.buttonOrder.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonOrder.Margin = new System.Windows.Forms.Padding(2);
             this.buttonOrder.Name = "buttonOrder";
             this.buttonOrder.Size = new System.Drawing.Size(102, 40);
             this.buttonOrder.TabIndex = 14;
@@ -211,13 +211,12 @@ namespace Foodieee
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Foodieee.Properties.Resources.Image_Block;
-            this.pictureBox1.Location = new System.Drawing.Point(18, 87);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Image = global::Foodieee.Properties.Resources.lemonade1;
+            this.pictureBox1.Location = new System.Drawing.Point(18, 95);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(130, 127);
+            this.pictureBox1.Size = new System.Drawing.Size(109, 162);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabIndex = 15;
             this.pictureBox1.TabStop = false;
             // 
             // Pembayaran
@@ -226,6 +225,7 @@ namespace Foodieee
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(300, 500);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.buttonOrder);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
@@ -238,11 +238,10 @@ namespace Foodieee
             this.Controls.Add(this.textBoxNotes);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Pembayaran";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
@@ -257,7 +256,6 @@ namespace Foodieee
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBoxNotes;
@@ -270,6 +268,7 @@ namespace Foodieee
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button buttonOrder;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

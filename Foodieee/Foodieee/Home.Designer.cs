@@ -30,23 +30,23 @@ namespace Foodieee
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.labelPromo = new System.Windows.Forms.Label();
-            this.labelLemonade = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.labelLemonade = new System.Windows.Forms.Label();
+            this.labelPromo = new System.Windows.Forms.Label();
             this.buttonRecom = new System.Windows.Forms.Button();
             this.buttonNear = new System.Windows.Forms.Button();
             this.comboBoxFilter = new System.Windows.Forms.ComboBox();
             this.labelMorning = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBoxLemon = new System.Windows.Forms.PictureBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -71,29 +71,17 @@ namespace Foodieee
             this.panel1.Size = new System.Drawing.Size(301, 186);
             this.panel1.TabIndex = 0;
             // 
-            // labelPromo
+            // label2
             // 
-            this.labelPromo.AutoSize = true;
-            this.labelPromo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.labelPromo.Font = new System.Drawing.Font("Montserrat", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPromo.ForeColor = System.Drawing.Color.White;
-            this.labelPromo.Location = new System.Drawing.Point(3, 13);
-            this.labelPromo.Name = "labelPromo";
-            this.labelPromo.Size = new System.Drawing.Size(79, 23);
-            this.labelPromo.TabIndex = 0;
-            this.labelPromo.Text = "Promo";
-            // 
-            // labelLemonade
-            // 
-            this.labelLemonade.AutoSize = true;
-            this.labelLemonade.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.labelLemonade.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelLemonade.ForeColor = System.Drawing.Color.White;
-            this.labelLemonade.Location = new System.Drawing.Point(13, 132);
-            this.labelLemonade.Name = "labelLemonade";
-            this.labelLemonade.Size = new System.Drawing.Size(77, 36);
-            this.labelLemonade.TabIndex = 4;
-            this.labelLemonade.Text = "Lemonade\r\n12k";
+            this.label2.AutoSize = true;
+            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label2.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(226, 132);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(80, 36);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Markobar\r\n22k";
             // 
             // label1
             // 
@@ -103,21 +91,34 @@ namespace Foodieee
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(118, 132);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(91, 36);
+            this.label1.Size = new System.Drawing.Size(102, 36);
             this.label1.TabIndex = 5;
             this.label1.Text = "Nasi Goreng\r\n25k";
             // 
-            // label2
+            // labelLemonade
             // 
-            this.label2.AutoSize = true;
-            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label2.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(226, 132);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(71, 36);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Markobar\r\n22k";
+            this.labelLemonade.AutoSize = true;
+            this.labelLemonade.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.labelLemonade.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelLemonade.ForeColor = System.Drawing.Color.White;
+            this.labelLemonade.Location = new System.Drawing.Point(13, 132);
+            this.labelLemonade.Name = "labelLemonade";
+            this.labelLemonade.Size = new System.Drawing.Size(86, 36);
+            this.labelLemonade.TabIndex = 4;
+            this.labelLemonade.Text = "Lemonade\r\n9k";
+            this.labelLemonade.Click += new System.EventHandler(this.labelLemonade_Click);
+            // 
+            // labelPromo
+            // 
+            this.labelPromo.AutoSize = true;
+            this.labelPromo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.labelPromo.Font = new System.Drawing.Font("Montserrat", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelPromo.ForeColor = System.Drawing.Color.White;
+            this.labelPromo.Location = new System.Drawing.Point(3, 13);
+            this.labelPromo.Name = "labelPromo";
+            this.labelPromo.Size = new System.Drawing.Size(78, 26);
+            this.labelPromo.TabIndex = 0;
+            this.labelPromo.Text = "Promo";
             // 
             // buttonRecom
             // 
@@ -166,9 +167,45 @@ namespace Foodieee
             this.labelMorning.ForeColor = System.Drawing.Color.Black;
             this.labelMorning.Location = new System.Drawing.Point(2, 263);
             this.labelMorning.Name = "labelMorning";
-            this.labelMorning.Size = new System.Drawing.Size(97, 23);
+            this.labelMorning.Size = new System.Drawing.Size(95, 26);
             this.labelMorning.TabIndex = 7;
             this.labelMorning.Text = "Morning";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Location = new System.Drawing.Point(9, 372);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(82, 36);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Jus Anggur\r\n20k";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Black;
+            this.label4.Location = new System.Drawing.Point(117, 372);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(76, 36);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "Ice Cream\r\n23k";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.Location = new System.Drawing.Point(225, 372);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(87, 36);
+            this.label5.TabIndex = 11;
+            this.label5.Text = "SangPisang\r\n33k";
             // 
             // pictureBox6
             // 
@@ -229,42 +266,6 @@ namespace Foodieee
             this.pictureBoxLemon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxLemon.TabIndex = 1;
             this.pictureBoxLemon.TabStop = false;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label3.Font = new System.Drawing.Font("Roboto Light", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(9, 372);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(82, 36);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Jus Anggur\r\n20k";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label4.Font = new System.Drawing.Font("Roboto Light", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(117, 372);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(76, 36);
-            this.label4.TabIndex = 10;
-            this.label4.Text = "Ice Cream\r\n23k";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label5.Font = new System.Drawing.Font("Roboto Light", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(225, 372);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(85, 36);
-            this.label5.TabIndex = 11;
-            this.label5.Text = "SangPisang\r\n33k";
             // 
             // Home
             // 
