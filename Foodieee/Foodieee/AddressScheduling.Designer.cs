@@ -34,6 +34,8 @@ namespace Foodieee
             this.TextBoxAddress = new System.Windows.Forms.RichTextBox();
             this.date = new System.Windows.Forms.DateTimePicker();
             this.buttonPayment = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -42,7 +44,7 @@ namespace Foodieee
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(13, 13);
+            this.label1.Location = new System.Drawing.Point(12, 79);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(104, 22);
             this.label1.TabIndex = 0;
@@ -54,7 +56,7 @@ namespace Foodieee
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label2.Font = new System.Drawing.Font("Montserrat", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(34, 54);
+            this.label2.Location = new System.Drawing.Point(34, 112);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(64, 18);
             this.label2.TabIndex = 1;
@@ -62,7 +64,7 @@ namespace Foodieee
             // 
             // TextBoxAddress
             // 
-            this.TextBoxAddress.Location = new System.Drawing.Point(37, 88);
+            this.TextBoxAddress.Location = new System.Drawing.Point(37, 133);
             this.TextBoxAddress.Name = "TextBoxAddress";
             this.TextBoxAddress.Size = new System.Drawing.Size(226, 182);
             this.TextBoxAddress.TabIndex = 2;
@@ -70,10 +72,11 @@ namespace Foodieee
             // 
             // date
             // 
-            this.date.Location = new System.Drawing.Point(48, 309);
+            this.date.Location = new System.Drawing.Point(147, 338);
             this.date.Name = "date";
-            this.date.Size = new System.Drawing.Size(200, 20);
+            this.date.Size = new System.Drawing.Size(116, 20);
             this.date.TabIndex = 3;
+            this.date.ValueChanged += new System.EventHandler(this.date_ValueChanged);
             // 
             // buttonPayment
             // 
@@ -83,12 +86,25 @@ namespace Foodieee
             this.buttonPayment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonPayment.Font = new System.Drawing.Font("Montserrat", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonPayment.ForeColor = System.Drawing.Color.White;
-            this.buttonPayment.Location = new System.Drawing.Point(48, 388);
+            this.buttonPayment.Location = new System.Drawing.Point(54, 388);
             this.buttonPayment.Name = "buttonPayment";
             this.buttonPayment.Size = new System.Drawing.Size(189, 46);
             this.buttonPayment.TabIndex = 4;
             this.buttonPayment.Text = "Payment Method";
             this.buttonPayment.UseVisualStyleBackColor = false;
+            this.buttonPayment.Click += new System.EventHandler(this.buttonPayment_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::Foodieee.Properties.Resources.back;
+            this.pictureBox2.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(43, 40);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 17;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // AddressScheduling
             // 
@@ -96,6 +112,7 @@ namespace Foodieee
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(300, 500);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.buttonPayment);
             this.Controls.Add(this.date);
             this.Controls.Add(this.TextBoxAddress);
@@ -103,8 +120,10 @@ namespace Foodieee
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AddressScheduling";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AddressScheduling";
+            this.Load += new System.EventHandler(this.AddressScheduling_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -117,5 +136,6 @@ namespace Foodieee
         private System.Windows.Forms.RichTextBox TextBoxAddress;
         private System.Windows.Forms.DateTimePicker date;
         private System.Windows.Forms.Button buttonPayment;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

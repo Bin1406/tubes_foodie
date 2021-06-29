@@ -16,5 +16,29 @@ namespace Foodieee
         {
             InitializeComponent();
         }
+
+        private void buttonPayment_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MetodePembayaran Mp = new MetodePembayaran();
+            Mp.Show();
+        }
+
+        private void date_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            DetailMakanan Dm = new DetailMakanan();
+            Dm.Show();
+        }
+
+        private void AddressScheduling_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
