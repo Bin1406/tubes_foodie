@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Success.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Success.Designer.cs">
+      <DependentUpon>Success.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pembayaran.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Pembayaran.resx">
       <DependentUpon>Pembayaran.cs</DependentUpon>
     </EmbeddedResource>
@@ -67,6 +82,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Success.resx">
+      <DependentUpon>Success.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -103,6 +121,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Home Page.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lock.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Profile.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undraw_Checklist__re_2w7v 1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
