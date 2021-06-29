@@ -17,7 +17,7 @@ namespace Foodieee
             InitializeComponent();
         }
 
-        private void buttonLogin_Click(object sender, EventArgs e)
+       private void buttonLogin_Click(object sender, EventArgs e)
         {
             // Menambahkan variabel untuk meng capture inputan dari user
             string username, password;
@@ -39,6 +39,18 @@ namespace Foodieee
                 this.Hide();
                 Login Lg = new Login();
                 Lg.Show();
+            }
+        }
+
+        private void checkBoxShow_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBoxShow.Checked)
+            {
+                textPassword.UseSystemPasswordChar = true;
+            }
+            else
+            {
+                textPassword.UseSystemPasswordChar = false;
             }
         }
     }
