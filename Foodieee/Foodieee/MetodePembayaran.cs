@@ -27,8 +27,8 @@ namespace Foodieee
         private void pictureBox5_Click(object sender, EventArgs e)
         {
             this.Hide();
-            DetailMakanan Dm = new DetailMakanan();
-            Dm.Show();
+            AddressScheduling As = new AddressScheduling();
+            As.Show();
         }
     }
 }
