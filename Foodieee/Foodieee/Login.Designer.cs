@@ -36,7 +36,7 @@ namespace Foodieee
             this.panel2 = new System.Windows.Forms.Panel();
             this.buttonLogin = new System.Windows.Forms.Button();
             this.textUsername = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textPassword = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -100,6 +100,7 @@ namespace Foodieee
             this.buttonLogin.TabIndex = 3;
             this.buttonLogin.Text = "LOGIN";
             this.buttonLogin.UseVisualStyleBackColor = false;
+            this.buttonLogin.Click += new System.EventHandler(this.buttonLogin_Click);
             // 
             // textUsername
             // 
@@ -111,15 +112,15 @@ namespace Foodieee
             this.textUsername.Size = new System.Drawing.Size(165, 20);
             this.textUsername.TabIndex = 4;
             // 
-            // textBox1
+            // textPassword
             // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(85, 290);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(165, 20);
-            this.textBox1.TabIndex = 4;
+            this.textPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textPassword.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textPassword.Location = new System.Drawing.Point(85, 290);
+            this.textPassword.Multiline = true;
+            this.textPassword.Name = "textPassword";
+            this.textPassword.Size = new System.Drawing.Size(165, 20);
+            this.textPassword.TabIndex = 4;
             // 
             // Login
             // 
@@ -127,7 +128,7 @@ namespace Foodieee
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(300, 500);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textPassword);
             this.Controls.Add(this.textUsername);
             this.Controls.Add(this.buttonLogin);
             this.Controls.Add(this.panel2);
@@ -155,6 +156,6 @@ namespace Foodieee
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button buttonLogin;
         private System.Windows.Forms.TextBox textUsername;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textPassword;
     }
 }
