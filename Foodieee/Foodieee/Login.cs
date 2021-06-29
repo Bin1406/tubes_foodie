@@ -44,6 +44,7 @@ namespace Foodieee
 
         private void checkBoxShow_CheckedChanged(object sender, EventArgs e)
         {
+            // Menambahkan chechbox untuk menyembunyikan / memunculkan password
             if (checkBoxShow.Checked)
             {
                 textPassword.UseSystemPasswordChar = true;
