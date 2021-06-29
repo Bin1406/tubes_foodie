@@ -137,6 +137,7 @@ namespace Foodieee
             this.pictureBoxLemon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxLemon.TabIndex = 1;
             this.pictureBoxLemon.TabStop = false;
+            this.pictureBoxLemon.Click += new System.EventHandler(this.pictureBoxLemon_Click);
             // 
             // labelPromo
             // 
