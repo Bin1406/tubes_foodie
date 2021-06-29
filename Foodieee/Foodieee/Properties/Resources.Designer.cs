@@ -183,6 +183,16 @@ namespace Foodieee.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Hide {
+            get {
+                object obj = ResourceManager.GetObject("Hide", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Home_Page {
             get {
                 object obj = ResourceManager.GetObject("Home Page", resourceCulture);
@@ -316,6 +326,16 @@ namespace Foodieee.Properties {
         internal static System.Drawing.Bitmap Sang_Pisang_Nugget_Pisang_Kekinian {
             get {
                 object obj = ResourceManager.GetObject("Sang-Pisang-Nugget-Pisang-Kekinian", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Show {
+            get {
+                object obj = ResourceManager.GetObject("Show", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
