@@ -123,6 +123,16 @@ namespace Foodieee.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fromandroid_ecb27047370695a75176ba941b6a0d21 {
+            get {
+                object obj = ResourceManager.GetObject("fromandroid-ecb27047370695a75176ba941b6a0d21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap gopay {
             get {
                 object obj = ResourceManager.GetObject("gopay", resourceCulture);
@@ -166,6 +176,16 @@ namespace Foodieee.Properties {
         internal static System.Drawing.Bitmap Group_50 {
             get {
                 object obj = ResourceManager.GetObject("Group 50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Hide {
+            get {
+                object obj = ResourceManager.GetObject("Hide", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -263,6 +283,16 @@ namespace Foodieee.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap nasi_goreng_pedas_431 {
+            get {
+                object obj = ResourceManager.GetObject("nasi-goreng-pedas_431", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ovo {
             get {
                 object obj = ResourceManager.GetObject("ovo", resourceCulture);
@@ -296,6 +326,16 @@ namespace Foodieee.Properties {
         internal static System.Drawing.Bitmap Sang_Pisang_Nugget_Pisang_Kekinian {
             get {
                 object obj = ResourceManager.GetObject("Sang-Pisang-Nugget-Pisang-Kekinian", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Show {
+            get {
+                object obj = ResourceManager.GetObject("Show", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

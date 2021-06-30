@@ -10,19 +10,16 @@ using System.Windows.Forms;
 
 namespace Foodieee
 {
-    public partial class Success : Form
+    public partial class SecondControl : UserControl
     {
-        public Success()
+        public SecondControl()
         {
             InitializeComponent();
         }
 
-        private void buttonSuccess_Click(object sender, EventArgs e)
+        private void labelMorning_Click(object sender, EventArgs e)
         {
-            // Mer redirect ke halaman utama karena transaksi atau flow dari user sudah selesai
-            this.Hide();
-            Home Hm = new Home();
-            Hm.Show();
+
         }
     }
 }
