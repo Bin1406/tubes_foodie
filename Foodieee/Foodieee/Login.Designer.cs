@@ -92,6 +92,7 @@ namespace Foodieee
             this.textUsername.Name = "textUsername";
             this.textUsername.Size = new System.Drawing.Size(165, 20);
             this.textUsername.TabIndex = 4;
+            this.textUsername.TextChanged += new System.EventHandler(this.textUsername_TextChanged);
             // 
             // textPassword
             // 

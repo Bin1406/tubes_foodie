@@ -1,4 +1,10 @@
-﻿
+﻿using System;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO;
+using System.Collections.Generic;
+using Newtonsoft.Json;
 namespace Foodieee
 {
     partial class Home
@@ -29,6 +35,15 @@ namespace Foodieee
         /// </summary>
         private void InitializeComponent()
         {
+            //Baca file Json yang diinginkan
+            String jsonstring = File.ReadAllText("D:/Telkom University/SE-43-03/Kelas/Semester 4/Kelas/Konstruksi Perangkat Lunak/TUBES TIDAK CONFLICT BISMILLAH/tubes_foodie/Foodieee/Foodieee/DataMakanan.json");
+
+            //Deserialize file json menjadi object
+            ContohClassMakanan makanan = JsonConvert.DeserializeObject<ContohClassMakanan>(jsonstring);
+            Console.WriteLine("Nama :" + makanan.nama);
+            Console.WriteLine("Harga :" + makanan.harga);
+            Console.WriteLine("Satuan :" + makanan.satuan);
+
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -74,7 +89,7 @@ namespace Foodieee
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(80, 36);
             this.label2.TabIndex = 6;
-            this.label2.Text = "Markobar\r\n22k";
+            this.label2.Text = makanan.nama;
             // 
             // label1
             // 
@@ -86,7 +101,7 @@ namespace Foodieee
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(103, 36);
             this.label1.TabIndex = 5;
-            this.label1.Text = "Nasi Goreng\r\n25k";
+            this.label1.Text = makanan.nama;
             // 
             // labelLemonade
             // 
@@ -98,7 +113,7 @@ namespace Foodieee
             this.labelLemonade.Name = "labelLemonade";
             this.labelLemonade.Size = new System.Drawing.Size(86, 36);
             this.labelLemonade.TabIndex = 4;
-            this.labelLemonade.Text = "Lemonade\r\n9k";
+            this.labelLemonade.Text = makanan.nama;
             this.labelLemonade.Click += new System.EventHandler(this.labelLemonade_Click);
             // 
             // pictureBox3
