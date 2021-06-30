@@ -233,5 +233,11 @@
   <ItemGroup>
     <None Include="Resources\nasi-goreng-pedas_431.jpeg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Show.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hide.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
