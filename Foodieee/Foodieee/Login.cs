@@ -32,13 +32,20 @@ namespace Foodieee
                 Home Gg = new Home();
                 Gg.Show();
             }
+            // Menerapkan kondisi apabila username kosong
+            else if (username == "")
+            {
+                MessageBox.Show("Username tidak boleh kosong");
+            }
+            // Menerapkan kondisi apabila password kosong
+            else if (password == "")
+            {
+                MessageBox.Show("Password tidak boleh kosong");
+            }
             // Menerapkan kondisi apabila username dan password user TIDAK terdaftar
             else
             {
                 MessageBox.Show("Username atau Password salah");
-                this.Hide();
-                Login Lg = new Login();
-                Lg.Show();
             }
         }
 
@@ -53,6 +60,11 @@ namespace Foodieee
             {
                 textPassword.UseSystemPasswordChar = false;
             }
+        }
+
+        private void textUsername_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

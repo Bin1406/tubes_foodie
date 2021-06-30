@@ -65,3 +65,11 @@ C:\Users\ASUS TUF GAMING\Documents\GitHub\tubes_foodie\Foodieee\Foodieee\obj\Deb
 C:\Users\ASUS TUF GAMING\Documents\GitHub\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.FirstControl.resources
 F:\TOOBES\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.FirstControl.resources
 F:\TOOBES\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.SecondControl.resources
+D:\Telkom University\SE-43-03\Kelas\Semester 4\Kelas\Konstruksi Perangkat Lunak\TUBES TIDAK CONFLICT BISMILLAH\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.FirstControl.resources
+D:\Telkom University\SE-43-03\Kelas\Semester 4\Kelas\Konstruksi Perangkat Lunak\TUBES TIDAK CONFLICT BISMILLAH\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.SecondControl.resources
+D:\Telkom University\SE-43-03\Kelas\Semester 4\Kelas\Konstruksi Perangkat Lunak\TUBES TIDAK CONFLICT BISMILLAH\tubes_foodie\Foodieee\Foodieee\bin\Debug\Newtonsoft.Json.dll
+D:\Telkom University\SE-43-03\Kelas\Semester 4\Kelas\Konstruksi Perangkat Lunak\TUBES TIDAK CONFLICT BISMILLAH\tubes_foodie\Foodieee\Foodieee\bin\Debug\Newtonsoft.Json.xml
+D:\Telkom University\SE-43-03\Kelas\Semester 4\Kelas\Konstruksi Perangkat Lunak\TUBES TIDAK CONFLICT BISMILLAH\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.csproj.CopyComplete
+F:\TOOBES\tubes_foodie\Foodieee\Foodieee\bin\Debug\Newtonsoft.Json.dll
+F:\TOOBES\tubes_foodie\Foodieee\Foodieee\bin\Debug\Newtonsoft.Json.xml
+F:\TOOBES\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.csproj.CopyComplete
