@@ -54,5 +54,10 @@ namespace Foodieee
                 textPassword.UseSystemPasswordChar = false;
             }
         }
+
+        private void textUsername_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
