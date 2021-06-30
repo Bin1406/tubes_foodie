@@ -20,9 +20,11 @@ namespace Foodieee
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             // Untuk me redirect ke page selanjutnya karena memilih metode pembayaran gopay (yang tersedia)
+            MessageBox.Show("Pembayaran berhasil dipilih");
             this.Hide();
             Pembayaran Pm = new Pembayaran();
             Pm.Show();
+
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
@@ -35,7 +37,20 @@ namespace Foodieee
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
+            // Menampilkan tulisan error karena metode pembayaran yang dipilih tidak dapat digunakan
+            MessageBox.Show("Maaf, metode pembayaran yang dipilih masih dalam maintenance oleh system");
+        }
 
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            // Menampilkan tulisan error karena metode pembayaran yang dipilih tidak dapat digunakan
+            MessageBox.Show("Maaf, metode pembayaran yang dipilih masih dalam maintenance oleh system");
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            // Menampilkan tulisan error karena metode pembayaran yang dipilih tidak dapat digunakan
+            MessageBox.Show("Maaf, metode pembayaran yang dipilih masih dalam maintenance oleh system");
         }
     }
 }
