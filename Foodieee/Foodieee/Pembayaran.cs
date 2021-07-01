@@ -16,6 +16,10 @@ namespace Foodieee
         {
             InitializeComponent();
         }
+        class paymentTableDriven
+        {
+            public enum Payment { Gopay, Ovo, BNI, Mandiri };
+        }
 
         public void GetSettings ()
         {
@@ -44,10 +48,10 @@ namespace Foodieee
 
         private void buttonOrder_Click(object sender, EventArgs e)
         {
-            // Me redirect ke halaman pembayaran sukses
+            // Me redirect ke halaman Konfirmasi pembayaran
             this.Hide();
-            Success Sc = new Success();
-            Sc.Show();
+            konfirmasi Kf = new konfirmasi();
+            Kf.Show();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
