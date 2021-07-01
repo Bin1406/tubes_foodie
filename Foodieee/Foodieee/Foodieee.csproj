@@ -55,6 +55,7 @@
     <Compile Include="AddressScheduling.Designer.cs">
       <DependentUpon>AddressScheduling.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cconfig.cs" />
     <Compile Include="DetailMakanan.cs">
       <SubType>Form</SubType>
     </Compile>
