@@ -1,4 +1,11 @@
 ﻿
+using System;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO;
+using System.Collections.Generic;
+using Newtonsoft.Json;
 namespace Foodieee
 {
     partial class FirstControl
@@ -29,6 +36,8 @@ namespace Foodieee
         /// </summary>
         private void InitializeComponent()
         {
+            string[] list_makanan_first = { "Jus Anggur\r\n15k", "Ice Cream\r\n20k", "Jus Anggur\r\n20k" };
+
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -51,7 +60,7 @@ namespace Foodieee
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(87, 36);
             this.label5.TabIndex = 18;
-            this.label5.Text = "SangPisang\r\n33k";
+            this.label5.Text = list_makanan_first[2];
             // 
             // label4
             // 
@@ -63,7 +72,7 @@ namespace Foodieee
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(76, 36);
             this.label4.TabIndex = 17;
-            this.label4.Text = "Ice Cream\r\n23k";
+            this.label4.Text = list_makanan_first[1];
             // 
             // label3
             // 
@@ -75,7 +84,7 @@ namespace Foodieee
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(82, 36);
             this.label3.TabIndex = 12;
-            this.label3.Text = "Jus Anggur\r\n20k";
+            this.label3.Text = list_makanan_first[0];
             // 
             // pictureBox6
             // 
@@ -106,6 +115,7 @@ namespace Foodieee
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 13;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // labelMorning
             // 
