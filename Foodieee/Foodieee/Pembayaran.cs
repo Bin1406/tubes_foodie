@@ -16,11 +16,8 @@ namespace Foodieee
         {
             InitializeComponent();
         }
-        class paymentTableDriven
-        {
-            public enum Payment { Gopay, Ovo, BNI, Mandiri };
-        }
 
+        //Runtime Configuration Bintang
         public void GetSettings ()
         {
             lblname.Text = Properties.Settings.Default.Addnotes; 
@@ -33,8 +30,9 @@ namespace Foodieee
             Properties.Settings.Default.Save();
         }
      
-        /*      public int Height { get; set; }
-            public int Width { get; set; }
+        /*Dari Abang Asisten Dosen Fauzi
+         * public int Height { get; set; }
+           public int Width { get; set; }
     
         public Pembayaran(int width, int height)
         {

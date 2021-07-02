@@ -20,6 +20,7 @@ namespace Foodieee
 
        private void buttonLogin_Click(object sender, EventArgs e)
         {
+            //Defensive programming Dhafin gg
             // Menambahkan variabel untuk meng capture inputan dari user
             string username, password;
             username = textUsername.Text;

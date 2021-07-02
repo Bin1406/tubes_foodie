@@ -36,10 +36,10 @@ namespace Foodieee
             this.label3 = new System.Windows.Forms.Label();
             this.textDate = new System.Windows.Forms.TextBox();
             this.textAddress = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.buttonAdd = new System.Windows.Forms.Button();
+            this.addressName = new System.Windows.Forms.Label();
+            this.dateName = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -48,10 +48,9 @@ namespace Foodieee
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(18, 122);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(12, 79);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(157, 33);
+            this.label1.Size = new System.Drawing.Size(104, 22);
             this.label1.TabIndex = 0;
             this.label1.Text = "Scheduling";
             // 
@@ -61,10 +60,9 @@ namespace Foodieee
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label2.Font = new System.Drawing.Font("Montserrat", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(19, 182);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(13, 118);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(63, 27);
+            this.label2.Size = new System.Drawing.Size(41, 18);
             this.label2.TabIndex = 1;
             this.label2.Text = "Date";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -77,10 +75,9 @@ namespace Foodieee
             this.buttonPayment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonPayment.Font = new System.Drawing.Font("Montserrat", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonPayment.ForeColor = System.Drawing.Color.White;
-            this.buttonPayment.Location = new System.Drawing.Point(81, 597);
-            this.buttonPayment.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.buttonPayment.Location = new System.Drawing.Point(54, 388);
             this.buttonPayment.Name = "buttonPayment";
-            this.buttonPayment.Size = new System.Drawing.Size(284, 71);
+            this.buttonPayment.Size = new System.Drawing.Size(189, 46);
             this.buttonPayment.TabIndex = 4;
             this.buttonPayment.Text = "Payment Method";
             this.buttonPayment.UseVisualStyleBackColor = false;
@@ -90,10 +87,9 @@ namespace Foodieee
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::Foodieee.Properties.Resources.back;
-            this.pictureBox2.Location = new System.Drawing.Point(18, 18);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox2.Location = new System.Drawing.Point(12, 12);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(64, 62);
+            this.pictureBox2.Size = new System.Drawing.Size(43, 40);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 17;
             this.pictureBox2.TabStop = false;
@@ -105,57 +101,76 @@ namespace Foodieee
             this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label3.Font = new System.Drawing.Font("Montserrat", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(19, 265);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(13, 172);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(99, 27);
+            this.label3.Size = new System.Drawing.Size(64, 18);
             this.label3.TabIndex = 18;
             this.label3.Text = "Address";
             // 
             // textDate
             // 
-            this.textDate.Location = new System.Drawing.Point(24, 212);
+            this.textDate.Location = new System.Drawing.Point(16, 138);
+            this.textDate.Margin = new System.Windows.Forms.Padding(2);
             this.textDate.Name = "textDate";
-            this.textDate.Size = new System.Drawing.Size(165, 26);
+            this.textDate.Size = new System.Drawing.Size(111, 20);
             this.textDate.TabIndex = 19;
+            this.textDate.TextChanged += new System.EventHandler(this.textDate_TextChanged);
             // 
             // textAddress
             // 
-            this.textAddress.Location = new System.Drawing.Point(24, 295);
+            this.textAddress.Location = new System.Drawing.Point(16, 192);
+            this.textAddress.Margin = new System.Windows.Forms.Padding(2);
             this.textAddress.Multiline = true;
             this.textAddress.Name = "textAddress";
-            this.textAddress.Size = new System.Drawing.Size(165, 147);
+            this.textAddress.Size = new System.Drawing.Size(111, 97);
             this.textAddress.TabIndex = 20;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(244, 212);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(194, 230);
-            this.dataGridView1.TabIndex = 21;
+            this.textAddress.TextChanged += new System.EventHandler(this.textAddress_TextChanged);
             // 
             // buttonAdd
             // 
-            this.buttonAdd.Location = new System.Drawing.Point(24, 468);
+            this.buttonAdd.BackColor = System.Drawing.Color.Coral;
+            this.buttonAdd.Cursor = System.Windows.Forms.Cursors.Default;
+            this.buttonAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonAdd.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonAdd.ForeColor = System.Drawing.Color.White;
+            this.buttonAdd.Location = new System.Drawing.Point(28, 305);
+            this.buttonAdd.Margin = new System.Windows.Forms.Padding(2);
             this.buttonAdd.Name = "buttonAdd";
-            this.buttonAdd.Size = new System.Drawing.Size(94, 32);
+            this.buttonAdd.Size = new System.Drawing.Size(79, 28);
             this.buttonAdd.TabIndex = 22;
             this.buttonAdd.Text = "Add";
-            this.buttonAdd.UseVisualStyleBackColor = true;
+            this.buttonAdd.UseVisualStyleBackColor = false;
             this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
+            // 
+            // addressName
+            // 
+            this.addressName.AutoSize = true;
+            this.addressName.Font = new System.Drawing.Font("Montserrat SemiBold", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addressName.Location = new System.Drawing.Point(166, 238);
+            this.addressName.Name = "addressName";
+            this.addressName.Size = new System.Drawing.Size(10, 15);
+            this.addressName.TabIndex = 23;
+            this.addressName.Text = ".";
+            // 
+            // dateName
+            // 
+            this.dateName.AutoSize = true;
+            this.dateName.Font = new System.Drawing.Font("Montserrat SemiBold", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateName.Location = new System.Drawing.Point(166, 143);
+            this.dateName.Name = "dateName";
+            this.dateName.Size = new System.Drawing.Size(10, 15);
+            this.dateName.TabIndex = 24;
+            this.dateName.Text = ".";
             // 
             // AddressScheduling
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(450, 769);
+            this.ClientSize = new System.Drawing.Size(300, 500);
+            this.Controls.Add(this.dateName);
+            this.Controls.Add(this.addressName);
             this.Controls.Add(this.buttonAdd);
-            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.textAddress);
             this.Controls.Add(this.textDate);
             this.Controls.Add(this.label3);
@@ -164,13 +179,10 @@ namespace Foodieee
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "AddressScheduling";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AddressScheduling";
-            this.Load += new System.EventHandler(this.AddressScheduling_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -185,7 +197,8 @@ namespace Foodieee
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textDate;
         private System.Windows.Forms.TextBox textAddress;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button buttonAdd;
+        private System.Windows.Forms.Label addressName;
+        private System.Windows.Forms.Label dateName;
     }
 }

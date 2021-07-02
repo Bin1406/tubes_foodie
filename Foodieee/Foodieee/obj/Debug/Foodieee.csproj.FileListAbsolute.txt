@@ -84,3 +84,4 @@ C:\Users\ASUS TUF GAMING\Documents\GitHub\tubes_foodie\Foodieee\Foodieee\bin\Deb
 C:\Users\ASUS TUF GAMING\Documents\GitHub\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.csprojAssemblyReference.cache
 C:\Users\ASUS TUF GAMING\Documents\GitHub\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.konfirmasi.resources
 C:\Users\ASUS TUF GAMING\Documents\GitHub\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.csproj.CopyComplete
+F:\TOOBES\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.konfirmasi.resources
