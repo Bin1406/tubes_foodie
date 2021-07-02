@@ -29,7 +29,7 @@ namespace Foodieee
         /// </summary>
         private void InitializeComponent()
         {
-
+            //Table Driven Fakih
             string[] list_makanan = { "Pisang Goreng", "Nasi Goreng", "Sang Pisang" };
             string[] list_harga = { "12.000", "35.000", "30.000" };
 

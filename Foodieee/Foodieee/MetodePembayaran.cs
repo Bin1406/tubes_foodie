@@ -19,6 +19,7 @@ namespace Foodieee
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
+            //Defensive nambahin check doang Dwiki
             // Untuk me redirect ke page selanjutnya karena memilih metode pembayaran gopay (yang tersedia)
             MessageBox.Show("Pembayaran berhasil dipilih");
             this.Hide();
