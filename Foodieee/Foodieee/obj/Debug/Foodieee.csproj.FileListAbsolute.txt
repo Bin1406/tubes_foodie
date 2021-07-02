@@ -79,3 +79,8 @@ D:\Kuliah\Foodie_KPL\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.SecondCon
 D:\Kuliah\Foodie_KPL\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.csproj.CopyComplete
 D:\Kuliah\Foodie_KPL\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.csprojAssemblyReference.cache
 D:\Kuliah\Foodie_KPL\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.konfirmasi.resources
+C:\Users\ASUS TUF GAMING\Documents\GitHub\tubes_foodie\Foodieee\Foodieee\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ASUS TUF GAMING\Documents\GitHub\tubes_foodie\Foodieee\Foodieee\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ASUS TUF GAMING\Documents\GitHub\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.csprojAssemblyReference.cache
+C:\Users\ASUS TUF GAMING\Documents\GitHub\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.konfirmasi.resources
+C:\Users\ASUS TUF GAMING\Documents\GitHub\tubes_foodie\Foodieee\Foodieee\obj\Debug\Foodieee.csproj.CopyComplete
