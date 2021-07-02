@@ -16,18 +16,42 @@ namespace Foodieee
         {
             InitializeComponent();
         }
+        class paymentTableDriven
+        {
+            public enum Payment { Gopay, Ovo, BNI, Mandiri };
+        }
 
+        public void GetSettings ()
+        {
+            lblname.Text = Properties.Settings.Default.Addnotes; 
+        }
+
+        public void AddSettings()
+        {
+            Properties.Settings.Default.Addnotes = textBoxNotes.Text;
+
+            Properties.Settings.Default.Save();
+        }
+     
+        /*      public int Height { get; set; }
+            public int Width { get; set; }
+    
+        public Pembayaran(int width, int height)
+        {
+            Height = height;
+            Width = width;
+        }*/
         private void Pembayaran_Load(object sender, EventArgs e)
         {
-
+            GetSettings();
         }
 
         private void buttonOrder_Click(object sender, EventArgs e)
         {
-            // Me redirect ke halaman pembayaran sukses
+            // Me redirect ke halaman Konfirmasi pembayaran
             this.Hide();
-            Success Sc = new Success();
-            Sc.Show();
+            konfirmasi Kf = new konfirmasi();
+            Kf.Show();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
@@ -54,6 +78,22 @@ namespace Foodieee
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AddSettings();
+            GetSettings();
         }
     }
 }

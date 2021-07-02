@@ -1,4 +1,12 @@
 ﻿
+using System;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO;
+using System.Collections.Generic;
+using Newtonsoft.Json;
+
 namespace Foodieee
 {
     partial class DetailMakanan
@@ -29,6 +37,13 @@ namespace Foodieee
         /// </summary>
         private void InitializeComponent()
         {
+            //Baca file Json yang diinginkan
+            String jsonstring = File.ReadAllText("C:/Users/ASUS TUF GAMING/Documents/GitHub/tubes_foodie/Foodieee/Foodieee/DataMakanan.json");
+
+            //Deserialize file json menjadi object
+            ContohClassMakanan makanan = JsonConvert.DeserializeObject<ContohClassMakanan>(jsonstring);
+
+
             this.namaMakanan = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -49,7 +64,7 @@ namespace Foodieee
             this.namaMakanan.Name = "namaMakanan";
             this.namaMakanan.Size = new System.Drawing.Size(131, 29);
             this.namaMakanan.TabIndex = 2;
-            this.namaMakanan.Text = "Lemonade";
+            this.namaMakanan.Text = makanan.nama3;
             // 
             // label1
             // 
@@ -79,7 +94,7 @@ namespace Foodieee
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(95, 26);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Rp 9000";
+            this.label3.Text = makanan.harga3;
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // pictureBox2

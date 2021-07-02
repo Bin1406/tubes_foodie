@@ -1,10 +1,12 @@
-﻿using System;
+﻿
+using System;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using System.Collections.Generic;
 using Newtonsoft.Json;
+
 namespace Foodieee
 {
     partial class Home
@@ -36,15 +38,16 @@ namespace Foodieee
         private void InitializeComponent()
         {
             //Baca file Json yang diinginkan
-            String jsonstring = File.ReadAllText("F:/TOOBES/tubes_foodie/Foodieee/Foodieee/DataMakanan.json");
+            String jsonstring = File.ReadAllText("C:/Users/ASUS TUF GAMING/Documents/GitHub/tubes_foodie/Foodieee/Foodieee/DataMakanan.json");
 
             //Deserialize file json menjadi object
             ContohClassMakanan makanan = JsonConvert.DeserializeObject<ContohClassMakanan>(jsonstring);
-            Console.WriteLine("Nama :" + makanan.nama);
-            Console.WriteLine("Harga :" + makanan.harga);
-            Console.WriteLine("Satuan :" + makanan.satuan);
+         
 
             this.panel1 = new System.Windows.Forms.Panel();
+            this.hargaMakanan3 = new System.Windows.Forms.Label();
+            this.hargaMakanan2 = new System.Windows.Forms.Label();
+            this.hargaMakanan1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.labelLemonade = new System.Windows.Forms.Label();
@@ -67,6 +70,9 @@ namespace Foodieee
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Coral;
+            this.panel1.Controls.Add(this.hargaMakanan3);
+            this.panel1.Controls.Add(this.hargaMakanan2);
+            this.panel1.Controls.Add(this.hargaMakanan1);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.labelLemonade);
@@ -79,6 +85,43 @@ namespace Foodieee
             this.panel1.Size = new System.Drawing.Size(301, 186);
             this.panel1.TabIndex = 0;
             // 
+            // hargaMakanan3
+            // 
+            this.hargaMakanan3.AutoSize = true;
+            this.hargaMakanan3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.hargaMakanan3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hargaMakanan3.ForeColor = System.Drawing.Color.White;
+            this.hargaMakanan3.Location = new System.Drawing.Point(225, 150);
+            this.hargaMakanan3.Name = "hargaMakanan3";
+            this.hargaMakanan3.Size = new System.Drawing.Size(96, 18);
+            this.hargaMakanan3.TabIndex = 9;
+            this.hargaMakanan3.Text = makanan.harga;
+            // 
+            // hargaMakanan2
+            // 
+            this.hargaMakanan2.AutoSize = true;
+            this.hargaMakanan2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.hargaMakanan2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hargaMakanan2.ForeColor = System.Drawing.Color.White;
+            this.hargaMakanan2.Location = new System.Drawing.Point(115, 150);
+            this.hargaMakanan2.Name = "hargaMakanan2";
+            this.hargaMakanan2.Size = new System.Drawing.Size(96, 18);
+            this.hargaMakanan2.TabIndex = 8;
+            this.hargaMakanan2.Text = makanan.harga2;
+            // 
+            // hargaMakanan1
+            // 
+            this.hargaMakanan1.AutoSize = true;
+            this.hargaMakanan1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.hargaMakanan1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hargaMakanan1.ForeColor = System.Drawing.Color.White;
+            this.hargaMakanan1.Location = new System.Drawing.Point(13, 150);
+            this.hargaMakanan1.Name = "hargaMakanan1";
+            this.hargaMakanan1.Size = new System.Drawing.Size(96, 18);
+            this.hargaMakanan1.TabIndex = 7;
+            this.hargaMakanan1.Text = makanan.harga3;
+            this.hargaMakanan1.Click += new System.EventHandler(this.hargaMakanan1_Click);
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -87,7 +130,7 @@ namespace Foodieee
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(226, 132);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 36);
+            this.label2.Size = new System.Drawing.Size(96, 18);
             this.label2.TabIndex = 6;
             this.label2.Text = makanan.nama;
             // 
@@ -99,9 +142,9 @@ namespace Foodieee
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(118, 132);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(103, 36);
+            this.label1.Size = new System.Drawing.Size(85, 18);
             this.label1.TabIndex = 5;
-            this.label1.Text = makanan.nama;
+            this.label1.Text = makanan.nama2;
             // 
             // labelLemonade
             // 
@@ -111,9 +154,9 @@ namespace Foodieee
             this.labelLemonade.ForeColor = System.Drawing.Color.White;
             this.labelLemonade.Location = new System.Drawing.Point(13, 132);
             this.labelLemonade.Name = "labelLemonade";
-            this.labelLemonade.Size = new System.Drawing.Size(86, 36);
+            this.labelLemonade.Size = new System.Drawing.Size(96, 18);
             this.labelLemonade.TabIndex = 4;
-            this.labelLemonade.Text = makanan.nama;
+            this.labelLemonade.Text = makanan.nama3;
             this.labelLemonade.Click += new System.EventHandler(this.labelLemonade_Click);
             // 
             // pictureBox3
@@ -157,7 +200,7 @@ namespace Foodieee
             this.labelPromo.ForeColor = System.Drawing.Color.White;
             this.labelPromo.Location = new System.Drawing.Point(3, 13);
             this.labelPromo.Name = "labelPromo";
-            this.labelPromo.Size = new System.Drawing.Size(78, 26);
+            this.labelPromo.Size = new System.Drawing.Size(79, 23);
             this.labelPromo.TabIndex = 0;
             this.labelPromo.Text = "Promo";
             // 
@@ -276,5 +319,8 @@ namespace Foodieee
         private System.Windows.Forms.Panel SidePanel;
         private FirstControl firstControl1;
         private SecondControl secondControl1;
+        private System.Windows.Forms.Label hargaMakanan3;
+        private System.Windows.Forms.Label hargaMakanan2;
+        private System.Windows.Forms.Label hargaMakanan1;
     }
 }
