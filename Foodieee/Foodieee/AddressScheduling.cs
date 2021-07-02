@@ -17,16 +17,22 @@ namespace Foodieee
         {
             InitializeComponent();
         }
-       
-
-            private void AddressScheduling_Load(object sender, EventArgs e)
+        //Runtime Configuration Dhafin
+        public void GetSettings()
         {
-            table = new DataTable();
-            table.Columns.Add("Date", typeof(String));
-            table.Columns.Add("Address", typeof(String));
-
-            dataGridView1.DataSource = table;
+            addressName.Text = Properties.Settings.Default.Address;
+            dateName.Text = Properties.Settings.Default.Date;
         }
+
+        public void AddSettings()
+        {
+            Properties.Settings.Default.Address = textAddress.Text;
+            Properties.Settings.Default.Date = textDate.Text;
+
+            Properties.Settings.Default.Save();
+        }
+
+      
 
         private void buttonPayment_Click(object sender, EventArgs e)
         {
@@ -56,10 +62,17 @@ namespace Foodieee
 
         private void buttonAdd_Click(object sender, EventArgs e)
         {
-            table.Rows.Add(textDate.Text, textAddress.Text);
+            AddSettings();
+            GetSettings();
+        }
 
-            textDate.Clear();
-            textAddress.Clear();
+        private void textDate_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textAddress_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }

@@ -8,12 +8,12 @@ namespace Foodieee
 {
     class bintangtabledriven
     {
-        public enum pin { binbin };
+        public enum id { binbin };
         public static string[] password = { "Foodie" };
 
-        public static string getPassword(pin pin)
+        public static string getPassword(id id)
         {
-            return password[(int)pin];
+            return password[(int)id];
         }
     }
 }

@@ -24,5 +24,10 @@ namespace Foodieee
             Home Hm = new Home();
             Hm.Show();
         }
+
+        private void labelSucces_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

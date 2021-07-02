@@ -12,7 +12,8 @@ namespace Foodieee
 {
     public partial class konfirmasi : Form
     {
-        static bintangtabledriven.pin id = bintangtabledriven.pin.binbin;
+        //Memanggil dari class bintangtabledriven
+        static bintangtabledriven.id id = bintangtabledriven.id.binbin;
         public string pin = id.ToString();
         public string Password = bintangtabledriven.getPassword(id);
         public konfirmasi()
@@ -32,9 +33,34 @@ namespace Foodieee
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Success Sc = new Success();
-            Sc.Show();
+            string id, password;
+            id = textBoxpin.Text;
+            password = textBoxpw.Text;
+
+            Console.WriteLine(id.ToString());
+            Console.WriteLine(password.ToString());
+            if (textBoxpin.Text == id.ToString() && textBoxpw.Text == password.ToString())
+            {
+                MessageBox.Show("Pembayaran Berhasil");
+                this.Hide();
+                Success Sc = new Success();
+                Sc.Show();
+            }
+            // Menerapkan kondisi apabila username kosong
+            else if (id == "")
+            {
+                MessageBox.Show("id tidak boleh kosong");
+            }
+            // Menerapkan kondisi apabila password kosong
+            else if (password == "")
+            {
+                MessageBox.Show("Password tidak boleh kosong");
+            }
+            // Menerapkan kondisi apabila username dan password user TIDAK terdaftar
+            else
+            {
+                MessageBox.Show("Username atau Password salah");
+            }
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
