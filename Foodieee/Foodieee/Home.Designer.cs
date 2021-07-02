@@ -36,7 +36,7 @@ namespace Foodieee
         private void InitializeComponent()
         {
             //Baca file Json yang diinginkan
-            String jsonstring = File.ReadAllText("F:/TOOBES/tubes_foodie/Foodieee/Foodieee/DataMakanan.json");
+            String jsonstring = File.ReadAllText("D:/Kuliah/Foodie_KPL/tubes_foodie/Foodieee/Foodieee/DataMakanan.json");
 
             //Deserialize file json menjadi object
             ContohClassMakanan makanan = JsonConvert.DeserializeObject<ContohClassMakanan>(jsonstring);
