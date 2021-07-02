@@ -52,5 +52,10 @@ namespace Foodieee
             // Menampilkan tulisan error karena metode pembayaran yang dipilih tidak dapat digunakan
             MessageBox.Show("Maaf, metode pembayaran yang dipilih masih dalam maintenance oleh system");
         }
+
+        private void MetodePembayaran_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

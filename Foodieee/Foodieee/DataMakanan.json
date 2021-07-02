@@ -1,5 +1,14 @@
-{
-	"nama" : "Lemonade",
-	"harga" : 9000,
+
+	{
+	"nama" : "Markobar",
+	"harga" : 35000,
+
+	
+	"nama2" : "Nasi Goreng",
+	"harga2" : 21000,
+
+	
+	"nama3" : "Lemonade",
+	"harga3" : 9000,
 	"satuan" : "pcs"
-}
+	}
